@@ -13,4 +13,5 @@ class Dog
     @name
   end
 
+@breed = "Mutt"
 end
