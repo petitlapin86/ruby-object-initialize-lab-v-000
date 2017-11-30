@@ -1,22 +1,15 @@
 #initialize method
 class Dog
-  def initialize(breed)
-    @breed = breed
+  def initialize(name)
+    @name = name
   end
 
   def breed=(breed)
-    @breed = breed
+    @name = name
   end
 
-  def breed
-    @breed
+  def name
+    @name
   end
 
-  def name=(dog_name) # this is an instance method that takes an argument
-   @name = dog_name # Im setting my instance to equal a Variable
- end
-
- def name #this method is reporting or reading the name AKA GETTER METHOD
-    @name #this is an instance variable
-  end
 end
